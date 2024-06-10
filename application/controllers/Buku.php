@@ -5,7 +5,8 @@ class Buku extends CI_Controller {
     public function __construct() { 
         parent::__construct();
         $this->load->helper('pustaka_helper');
-        cek_login(); 
+        cek_login();
+        cek_user(); 
     }
 
     public function ubahBuku()

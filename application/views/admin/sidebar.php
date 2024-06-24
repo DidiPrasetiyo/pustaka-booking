@@ -38,6 +38,25 @@
           <span>Data Booking</span></a>
 </li>
 
+<hr class="sidebar-divider">
+<div class="sidebar-heading">Laporan</div>
+<li class="nav-item">
+        <a class="nav-link" href="<?=base_url('laporan/laporan_buku');?>">
+          <i class="fas fa-fw fa-address-book"></i>
+          <span>Laporan Data Buku</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="<?=base_url('laporan_anggota');?>">
+          <i class="fas fa-fw fa-address-book"></i>
+          <span>Laporan Data Anggota</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="<?=base_url('laporan/laporan_pinjam');?>">
+          <i class="fas fa-fw fa-address-book"></i>
+          <span>Laporan Data Pinjam</span></a>
+</li>
+
+
 
 <hr class="sidebar-divider mt-3">
 <!-- Sidebar Toggler (Sidebar) -->
